@@ -14,7 +14,7 @@ On Windows
 
 Firstly, you have to install Ngspice for Windows from this `page
 <http://ngspice.sourceforge.net/download.html>`_.  Download the archive
-:file:`ngspice-30_dll_64.zip` from thex `release page
+:file:`ngspice-30_dll_64.zip` from the `release page
 <https://sourceforge.net/projects/ngspice/files/ng-spice-rework/28>`_ and unzip the files in
 `C:\\Program Files\\Spice64_dll`.
 
@@ -77,7 +77,7 @@ You can install PySpice using *pip* or from source. See supra.
 How to get the Examples
 -----------------------
 
-Examples are not installed by ``pip`` or ``setup.pip``. The installation process only install
+Examples are not installed by ``pip`` or ``setup.pip``. The installation process only installs
 PySpice on your Python environment.
 
 **You have to download the PySpice archive or clone the Git repository to get the examples.** See "Installation from Source".
@@ -85,7 +85,7 @@ PySpice on your Python environment.
 Note: We could install examples with pip, but files would be more difficult to locate in the
 environment directory.
 
-Installation from PyPi Repository
+Installation from PyPI Repository
 ---------------------------------
 
 PySpice is available on the Python Packages |Pypi|_ repository at |PySpice@pypi|
@@ -96,10 +96,10 @@ Run this command in the console to install the latest release:
 
   pip install PySpice
 
-Install a more recent version from Github
+Install a more recent version from GitHub
 -----------------------------------------
 
-If you want to install a version which is not yet released on Pypi, you can use one of theses
+If you want to install a version which is not yet released on PyPI, you can use one of theses
 commands to install the stable or devel branch:
 
 .. code-block:: sh
@@ -116,7 +116,7 @@ The PySpice source code is hosted at |PySpice@github|
 .. add link to pages ...
 
 You have two solution to get the source code, the first one is to clone the repository, but if you
-are not familiar with Git then you can simply download an archive either from the PySpice Pypi page
+are not familiar with Git then you can simply download an archive either from the PySpice PyPI page
 (at the bottom) or the GitHub page (see clone or download button).
 
 To clone the Git repository, run this command in a console:
@@ -143,7 +143,7 @@ PySpice requires the following dependencies:
  * |Ngspice|_
  * |CFFI|_ (only required for Ngspice shared)
 
-Also it is recommanded to have these Python modules:
+Also it is recommended to have these Python modules:
 
  * |IPython|_
 
@@ -159,14 +159,14 @@ Ngspice Compilation
 -------------------
 
 Usually Ngspice is available as a package on the most popular Linux distributions. But I recommend
-to **check the compilation options** before to use it extensively. For example the Fedora package
+to **check the compilation options** before using it extensively. For example, the Fedora package
 enables too many experimental codes that have side effects. The recommended way to compile Ngspice
 is given in the manual and in the ``INSTALLATION`` file. Ngspice is an example of complex software
 where we should not enable everything without care.
 
 .. warning::
 
-  Compilation option **--enable-ndev** is known to broke the server mode.
+  Compilation option **--enable-ndev** is known to break the server mode.
 
 The recommended way to compile Ngspice on Fedora is:
 
@@ -190,7 +190,7 @@ The recommended way to compile Ngspice on Fedora is:
 How to get Xyce ?
 -----------------
 
-Despite Xyce is released under the therms of the GPLv3 licence, Sandia requires actually you create
+Even though Xyce is released under the terms of the GPLv3 licence, Sandia actually requires that you create
 a user account on this `sign-in page <https://xyce.sandia.gov/downloads/sign-in.html>`_ so as to get
 the source or download an executable, i.e. you have to provide your email address to Sandia.
 
